@@ -1,1 +1,1 @@
-<div> Welcome to the page</div>
+<div> copyright <div>

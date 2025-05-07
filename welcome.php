@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
     <?php
-        include 'footer.inc'; 
+        include 'header.inc'; 
         session_start();
         if(isset($_SESSION['user']))
         {
@@ -11,6 +11,6 @@
         {
             header('Location: login.html');
         }
-        include 'header.inc';    
+        include 'footer.inc';    
     ?>
 </html>
